@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+/* .wrapper {
+  position: relative;
+} */
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+}
+.main {
+  min-height: 83vh;
+  background-color: #faf9f1f5;
+}
+
+/* header section  */
+
+.header {
+  /* background-color: #fffdd0; */
+  /* background-color: #faf9f1 !important; */
+  background: linear-gradient(135deg, white, rgb(87, 168, 87));
+  z-index: 1030;
+  z-index: 1030;
+  /* background-color: #faf9f1f5 !; */
+  box-shadow: 4px 4px 4px rgba(71, 49, 49, 0.575);
+}
+.nav-link:hover {
+  background: lavenderblush;
+}
+/* hero section  */
+.hero-right {
+  background: url("./assets/bg2.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.neumo-card {
+  background: #d8d6d3; /* Slightly darker creamy off-white */
+  border-radius: 20px;
+  color: #333;
+  padding: 20px;
+  height: 100%;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 8px 8px 15px #9b9998,
+    /* soft darker shadow */ -8px -8px 15px #ffffff; /* soft highlight */
+  /* min-width: 250px; */
+  /* box-sizing: border-box; */
+}
+.neumo-card:hover {
+  box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.5rem;
+
+  /* gap: 1.5rem; */
+}
+
+.get-started {
+  background: #198754;
+}
+
+/* footer section  */
+.footer {
+  background-color: #145c40; /* or try any of the above */
+  color: #ffffff;
+  padding: 2rem 0;
+}
