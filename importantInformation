@@ -1,0 +1,133 @@
+🌐 Public Pages
+Landing Page
+
+About Us
+
+How It Works
+
+Contact Us
+
+FAQ / Help
+
+Login
+
+Register
+
+Reset Password
+
+Terms & Conditions
+
+Privacy Policy
+
+404 - Not Found
+
+👤 Donor Pages
+Donor Dashboard
+
+Donate Food
+
+My Donations
+
+Donation Details (single donation view)
+
+Messages / Notifications
+
+Donor Profile / Settings
+
+🍽️ Recipient Pages
+Recipient Dashboard
+
+Browse Food Listings
+
+Food Item Details
+
+Request Food
+
+My Requests
+
+Messages / Notifications
+
+Recipient Profile / Settings
+
+🛠️ Admin Pages
+Admin Dashboard
+
+Manage Users
+
+Manage Donations
+
+Reported Issues / Flags
+
+Content Management (FAQs, banners, etc.)
+
+Admin Settings
+
+/src
+├── /pages
+│ ├── /public
+│ │ ├── LandingPage.jsx
+│ │ ├── AboutUs.jsx
+│ │ ├── HowItWorks.jsx
+│ │ ├── ContactUs.jsx
+│ │ ├── FAQ.jsx
+│ │ ├── Login.jsx
+│ │ ├── Register.jsx
+│ │ ├── ResetPassword.jsx
+│ │ ├── Terms.jsx
+│ │ ├── PrivacyPolicy.jsx
+│ │ └── NotFound.jsx
+│ │
+│ ├── /donor
+│ │ ├── DonorDashboard.jsx
+│ │ ├── DonateFood.jsx
+│ │ ├── MyDonations.jsx
+│ │ ├── DonationDetails.jsx
+│ │ ├── DonorMessages.jsx
+│ │ └── DonorProfile.jsx
+│ │
+│ ├── /recipient
+│ │ ├── RecipientDashboard.jsx
+│ │ ├── BrowseFood.jsx
+│ │ ├── FoodDetails.jsx
+│ │ ├── RequestFood.jsx
+│ │ ├── MyRequests.jsx
+│ │ ├── RecipientMessages.jsx
+│ │ └── RecipientProfile.jsx
+│ │
+│ ├── /admin
+│ │ ├── AdminDashboard.jsx
+│ │ ├── ManageUsers.jsx
+│ │ ├── ManageDonations.jsx
+│ │ ├── Reports.jsx
+│ │ ├── ContentManagement.jsx
+│ │ └── AdminSettings.jsx
+│
+├── /components
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── ProtectedRoute.jsx
+│ ├── FoodCard.jsx
+│ ├── RequestForm.jsx
+│ └── NotificationBell.jsx
+│
+├── /hooks
+│ └── useAuth.js
+│
+├── /context
+│ └── AuthContext.jsx
+│
+├── /routes
+│ └── AppRoutes.jsx
+│
+├── /services
+│ └── api.js
+│
+└── App.jsx
+
+[Support Bite] [Home] [About Us] [How It Works] [FAQ] [Login] [Register]
+
+[Support Bite] [Dashboard] [Donate Food] [My Donations] [Messages] [Profile ▼]
+
+[Support Bite] [Dashboard] [Browse Food] [My Requests] [Messages] [Profile ▼]
+
+[Support Bite] [Dashboard] [Users] [Donations] [Reports] [Content] [Admin ▼]
